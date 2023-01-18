@@ -28,7 +28,5 @@ public class CreateContact {
 		String text= contact.findElement(By.id("viewContact_firstName_sp")).getText();
 		System.out.println(text);
 		contact.close();
-		
 	}
-
 }
